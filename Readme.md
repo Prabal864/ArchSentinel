@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#-license)
+[![License](https://img.shields.io/badge/License-Custom-blue?style=for-the-badge)](#-license)
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-archsentinel.netlify.app-00C7B7?style=for-the-badge)](https://archsentinel.netlify.app)
 
 <br/>
@@ -272,12 +272,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
