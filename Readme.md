@@ -12,7 +12,7 @@
 
 <br/>
 
-<img src="docs/screenshots/Screenshot%202026-03-04%20134629.png" alt="ArchSentinel AI — Hero" width="90%"/>
+<img src="docs/screenshots/Screenshot%202026-03-04%20134629.png" alt="ArchSentinel AI — Hero" width="100%"/>
 
 <br/>
 
