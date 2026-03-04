@@ -2,7 +2,9 @@
 
 > Automatically analyze GitHub Pull Requests for architectural degradation, compute health scores, and get AI-powered recommendations — **supports multiple users & repos**.
 
----
+<p align="center">
+  <img src="docs/screenshots/Screenshot%202026-03-04%20134629.png" alt="Main Website Hero Section" width="800" />
+</p>
 
 ## ✨ Features
 
