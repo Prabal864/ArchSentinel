@@ -23,6 +23,20 @@
 
 ---
 
+## 📄 Resume Highlights
+
+> Ready-to-use bullet points for your resume or portfolio:
+
+- **Built a real-time PR analysis engine** with Java 17 & Spring Boot and GitHub Webhooks, using a JavaParser-based AST pipeline to detect N+1 query patterns, circular dependencies, layer violations, and high-coupling classes on every pull request.
+
+- **Integrated an LLM-powered microservice** (Python FastAPI + OpenRouter API) to auto-generate AI-written architectural impact summaries and post formatted reports as GitHub PR comments, streamlining code review for architecture health.
+
+- **Engineered a dependency graph & health scoring system** with DFS cycle detection and a 5-dimension weighted scoring model (coupling, circular deps, complexity, performance, layer violations) producing a deterministic 0–100 health score per PR for data-driven merge decisions.
+
+- **Containerized the full microservices stack** (Spring Boot + FastAPI + React/Vite) with Docker Compose, enabling single-command deployment across environments and eliminating configuration drift in development, staging, and CI/CD pipelines.
+
+---
+
 ## 📸 Screenshots
 
 <div align="center">
