@@ -32,7 +32,7 @@
     <td align="center"><img src="docs/screenshots/Screenshot%202026-03-04%20134239.png" alt="Token Registration" width="400"/><br/><b>Token Registration</b></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><img src="docs/screenshots/Screenshot%202026-03-04%20134321.png" alt="PR Analysis Report" width="600"/><br/><b>PR Analysis Report</b></td>
+    <td align="center" colspan="2"><img src="docs/screenshots/Screenshot%202026-03-04%20134321.png" alt="PR Analysis Report" width="100%"/><br/><b>PR Analysis Report</b></td>
   </tr>
 </table>
 </div>
