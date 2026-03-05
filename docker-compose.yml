@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  archsentinel-backend:
+    image: prabal864/livereconai:archsentinel-backend
+    container_name: archsentinel-backend
+    build:
+      context: ./archsentinel-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET:-}
+      - AI_SERVICE_URL=http://ai-service:8000
+      - CLONE_DIR=/tmp/archsentinel-repos
+
+    depends_on:
+      - ai-service
+    volumes:
+      - /tmp/archsentinel-repos:/tmp/archsentinel-repos
+    restart: unless-stopped
+
+  ai-service:
+    image: prabal864/livereconai:archsentinel-ai-service
+    container_name: archsentinel-ai-service
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENROUTER_API_KEY= ${OPENROUTER_API_KEY}
+      - LLM_MODEL= ${LLM_MODEL}
+    restart: unless-stopped
